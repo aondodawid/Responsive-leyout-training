@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Leyout</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="flex-row container">
+        <button class="nav-toggle" aria-label="open navigation">
+          <span class="hamburger"></span>
+        </button>
+        <a href="#" class="logo">
+          <img src="./img/logo.svg" alt="logo" />
+        </a>
+        <nav class="nav">
+          <ul class="nav__list--first nav__list">
+            <li class="nav__item"><a class="nav__link">Home</a></li>
+            <li class="nav__item"><a class="nav__link">About</a></li>
+            <li class="nav__item"><a class="nav__link">Contact</a></li>
+          </ul>
+          <ul class="nav__list--second nav__list">
+            <li class="nav__item"><a class="nav__link">Sign In</a></li>
+            <li class="nav__item">
+              <a href="#" class="nav__link nav__btn">Sign up </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container flex-row main__content">
+        <h1 class="col main__header">
+          Responsive layouts
+          <span class="main__header--colored">don’t have to be a struggle</span>
+        </h1>
+        <div class="col main__text">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur 3 adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <a href="#" class="main__cta"> I want to learn </a>
+        </div>
+      </div>
+    </main>
+    <section class="section">
+      <div class="container">
+        <div>
+          <h3 class="section__header">Mobile-first</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam.
+          </p>
+        </div>
+
+        <div>
+          <h3 class="section__header">Efficient</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam.
+          </p>
+        </div>
+
+        <div>
+          <h3 class="section__header">Done right</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam.
+          </p>
+        </div>
+      </div>
+    </section>
+    <article class="article">
+      <div class="container article__wrapper">
+        <div class="article__first-section">
+          <h2 class="article__header--main">It doesn’t have to be so hard</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam.
+          </p>
+          <img class="article__hero" src="./img/the-image.jpg" alt="hero" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam.
+          </p>
+        </div>
+        <div class="article__second-section">
+          <div class="article__second-section__text">
+            <h3 class="article__header--sub">Break it down</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div class="article__second-section__text">
+            <h3 class="article__header--sub">Work your way up</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div class="article__second-section__text">
+            <h3 class="article__header--sub">Break it down</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+      </div>
+    </article>
+    <footer class="footer">
+      <div class="container">
+        <h2 class="footer__header--main">just scratching the surface</h2>
+        <div class="footer__nav flex-row">
+          <div class="footer__text">
+            <h3 class="footer__header--sub">About our company</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim 9 veniam.
+            </p>
+          </div>
+          <div class="footer__nav__block">
+            <h3 class="footer__header--sub">Getting around</h3>
+            <ul class="footer__nav__list">
+              <li class="footer__nav__item"><a href="#">Home </a></li>
+              <li class="footer__nav__item"><a href="#">About </a></li>
+              <li class="footer__nav__item"><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer__nav__block">
+            <h3 class="footer__header--sub">Other things</h3>
+            <ul class="footer__nav__list">
+              <li class="footer__nav__item"><a href="#">Lorem ipsum </a></li>
+              <li class="footer__nav__item"><a href="#">dolor</a></li>
+              <li class="footer__nav__item"><a href="#">sit amet </a></li>
+              <li class="footer__nav__item"><a href="#">consectetur </a></li>
+            </ul>
+          </div>
+          <div class="footer__nav__block">
+            <h3 class="footer__header--sub">And more</h3>
+            <ul class="footer__nav__list">
+              <li class="footer__nav__item"><a href="#">Lorem ipsum </a></li>
+              <li class="footer__nav__item"><a href="#">dolor</a></li>
+              <li class="footer__nav__item"><a href="#">sit amet </a></li>
+              <li class="footer__nav__item"><a href="#">consectetur </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
